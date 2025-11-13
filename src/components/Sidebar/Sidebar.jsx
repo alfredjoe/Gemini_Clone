@@ -13,6 +13,9 @@ const Sidebar = () => {
         <div className="new-chat">
             <img src={assets.plus_icon} alt="" />
             {extended?<p>New Chat</p>:null}
+
+
+            {/* AD */}
         </div>
         {extended?
         <div className="recent">
